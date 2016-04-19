@@ -14,7 +14,6 @@ class Customer(models.Model):
 class Ticket(models.Model):
 
     ticket_number = models.CharField(max_length=100, primary_key=True)
-    # time =
     payment_number = models.ForeignKey('Payment', on_delete=models.CASCADE)
     event_id = models.ForeignKey('Event', on_delete=models.CASCADE)
     customer_id = models.ForeignKey('Customer', on_delete=models.CASCADE)
@@ -23,6 +22,7 @@ class Ticket(models.Model):
 class Event(models.Model):
 
     event_id = models.CharField(max_length=100, primary_key=True)
+    name = models.CharField(max_length=100)
     type = models.CharField(max_length=100)
     date = models.DateField()
     begin = models.TimeField()
