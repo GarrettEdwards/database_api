@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25607a9-f0cd-41ea-8388-9294af139cc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Positions.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event_info.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/female.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lastname.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/male.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/populate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest_api/models.py" afterPath="$PROJECT_DIR$/rest_api/models.py" />
     </list>
     <ignored path="database_api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -520,6 +513,14 @@
       <option name="presentableId" value="Default" />
       <updated>1460854680366</updated>
     </task>
+    <task id="LOCAL-00001" summary="believe populate script is finished, having problems with settings file &#10;">
+      <created>1461091460488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1461091460488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,6 +557,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="believe populate script is finished, having problems with settings file &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="believe populate script is finished, having problems with settings file &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,6 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
